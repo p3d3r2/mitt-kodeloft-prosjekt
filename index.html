@@ -1,23 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
   <head>
-    <title>Home</title>
+    <title>Hjem</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
+    <header class="header">
+      <p class="logo">NASA</p>
+      <nav>
+        <ul class="navList">
+          <a href="section-1" class="navLink">
+            <li>Hjem</li>
+          </a>
+
+          <a href="section-2" class="navLink">
+            <li>Stjerner</li>
+          </a>
+
+          <a href="section-3" class="navLink">
+            <li>Svarte Hull</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="section-1">
+        <div class="heroText">
+          <h1>Stjerner & Svarte Hull</h1>
+          <p>Alt du trenger å vite om Universets største mysterie</p>
+        </div>
+
+        <img src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+      </section>
+
+      <section id="section-2" class="Stjerner">
+        <!--- Stjerner fakta -->
+        <img src="https://plus.unsplash.com/premium_photo-1670210080045-a2e0da63dd99?q=80&w=2215&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <h2>Stjerner</h2>
+        <p>
+          Stjerner er enorme, glødende kuler av gass som lyser fordi det skjer kraftige reaksjoner inni dem. De lager varme og lys, og noen stjerner kan leve i milliarder av år. De største stjernene bruker opp energien sin mye raskere enn små stjerner. 
+        </p>
+
+        <p>
+          Noen stjerner er så store at de kan romme over en million jordkloder inni seg, og er over 1 000 ganger større enn sola. De lyser også i forskjellige farger – blå stjerner er de varmeste, mens røde stjerner er de kjøligste. Stjerner kan leve alt fra noen millioner til mange milliarder år, avhengig av hvor store de er.
+        </p>
+      </section>
+
+      <section id="section-3" class="svarte hull">
+        <!-- Svarte Hull fakta -->
+        <h2>Svarte Hull</h2>
+        <p>
+          Et svart hull er et område i rommet med så sterk tyngdekraft at ingenting kan slippe unna - ikke engang lys. 
+        </p>
+        <p>
+          Et svart hull er helt usynlig, men vi kan oppdage det ved å se hvordan det påvirker ting rundt seg. Hvis gass eller en stjerne kommer for nær, kan det bli dratt rundt i en spiral og lyse sterkt før det forsvinner. I tillegg går tiden saktere nær et svart hull på grunn av den ekstreme tyngdekraften - noe som faktisk er bevist av fysikere!
+        </p>
+        <img src="https://images.unsplash.com/photo-1597449031666-21da12583121?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+      </section>
+
     </main>
+
+    <footer class="footer">
+      <p class="logo">NASA</p>
+      <p>
+        Laget av PK
+      </p>
+      <img src="" alt="instagram ikon">
+    </footer>
   </body>
 </html>
