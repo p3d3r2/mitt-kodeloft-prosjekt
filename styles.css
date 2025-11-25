@@ -3,3 +3,76 @@ img {
   width: 100%;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 33px;
+  font-weight: bold;
+  border: 5px solid black;
+  border-radius: 50%;
+  padding: 8px;
+
+}
+
+.navList {
+display: flex;
+list-style-type: none;
+padding-inline-start: 0;
+gap: 16px;
+}
+
+.navLink {
+  color: black;
+}
+
+/* -- MAIN -- */
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.heroText,
+.heroImg {
+  width: 100%;
+}
+
+.heroText {
+  text-align: center;
+}
+
+/* Stjerner */
+.stjerner {
+  display: flex;
+  align-items: center;
+}
+
+.stjernerImg,
+.stjernerText {
+  width: 50%;
+}
+
+.stjernerText {
+  text-align: center;
+}
+
+/* Svarte Hill */
+.svartehull {
+  display: flex;
+  align-items: center;
+}
+
+.svartehullText,
+.svartehullImg {
+  width: 50%;
+}
+
+.svartehullText {
+  text-align: center;
+}
