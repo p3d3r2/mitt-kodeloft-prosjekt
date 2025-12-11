@@ -179,3 +179,17 @@ main {
 .gitHub:hover {
   opacity: 1;
 }
+
+@media (
+  max-width: 769px
+) {
+  .stjerner {
+    flex-direction: column-reverse;
+  }
+  .svarteHull {
+    flex-direction: column;
+  }
+  .stjernerText, .stjernerImg, .svarteHullText, .svarteHullImg {
+    width: 80%;
+  }
+}
