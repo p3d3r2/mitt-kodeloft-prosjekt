@@ -16,6 +16,7 @@ header {
   border: 5px solid black;
   border-radius: 50%;
   padding: 8px;
+  width: fit-content;
 
 }
 
@@ -62,17 +63,25 @@ gap: 16px;
   text-align: center;
 }
 
-/* Svarte Hill */
-.svartehull {
+/* Svarte Hull */
+.svarteHull {
   display: flex;
   align-items: center;
 }
 
-.svartehullText,
-.svartehullImg {
+.svarteHullText,
+.svarteHullImg {
   width: 50%;
 }
 
-.svartehullText {
+.svarteHullText {
   text-align: center;
+}
+
+/* Footer */ 
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
