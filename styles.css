@@ -27,11 +27,54 @@ padding-inline-start: 0;
 gap: 16px;
 }
 
+.hjemNavList {
+  opacity: 0.7;
+
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+}
+
+.hjemNavList:hover {
+  opacity: 1;
+}
+
+.stjernerNavList {
+  opacity: 0.7;
+
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+}
+
+.stjernerNavList:hover {
+  opacity: 1;
+}
+
+.svarteHullNavList {
+  opacity: 0.7;
+
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+}
+
+.svarteHullNavList:hover {
+  opacity: 1;
+}
+
 .navLink {
   color: black;
 }
 
 /* -- MAIN -- */
+
+main {
+  font-family: "Noto Sans";
+}
 
 /* Hero */
 .hero {
@@ -60,8 +103,13 @@ gap: 16px;
 }
 
 .stjernerText {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+
 
 /* Svarte Hull */
 .svarteHull {
@@ -75,8 +123,41 @@ gap: 16px;
 }
 
 .svarteHullText {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* Overganger */
+
+.buttonStjerner {
+  opacity: 0.5;
+
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+}
+
+.buttonStjerner:hover {
+  opacity: 1;
+}
+
+
+.buttonSvarteHull {
+  opacity: 0.5;
+
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+}
+
+.buttonSvarteHull:hover {
+  opacity: 1;
+}
+
 
 /* Footer */ 
 .footer {
@@ -84,4 +165,17 @@ gap: 16px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.gitHub {
+  opacity: 0.5;
+
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+}
+
+.gitHub:hover {
+  opacity: 1;
 }

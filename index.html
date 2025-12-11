@@ -6,22 +6,26 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <header class="header">
       <p class="logo">NASA</p>
       <nav>
         <ul class="navList">
           <a href="section-1" class="navLink">
-            <li>Hjem</li>
+            <li class="hjemNavList">Hjem</li>
           </a>
 
           <a href="section-2" class="navLink">
-            <li>Stjerner</li>
+            <li class="stjernerNavList">Stjerner</li>
           </a>
 
           <a href="section-3" class="navLink">
-            <li>Svarte Hull</li>
+            <li class="svarteHullNavList">Svarte Hull</li>
           </a>
         </ul>
       </nav>
@@ -53,6 +57,9 @@
           <p>
             Noen stjerner er så store at de kan romme over en million jordkloder inni seg, og er over 1 000 ganger større enn sola. De lyser også i forskjellige farger – blå stjerner er de varmeste, mens røde stjerner er de kjøligste. Stjerner kan leve alt fra noen millioner til mange milliarder år, avhengig av hvor store de er.
           </p>
+          <button class="buttonStjerner">
+            Les mer
+          </button>
         </div>
       </section>
 
@@ -66,8 +73,11 @@
           <p>
             Et svart hull er helt usynlig, men vi kan oppdage det ved å se hvordan det påvirker ting rundt seg. Hvis gass eller en stjerne kommer for nær, kan det bli dratt rundt i en spiral og lyse sterkt før det forsvinner. I tillegg går tiden saktere nær et svart hull på grunn av den ekstreme tyngdekraften - noe som faktisk er bevist av fysikere!
           </p>
+          <button class="buttonSvarteHull">
+            Les mer
+          </button>
         </div>
-       
+                 
         <img class="svarteHullImg"
         src="https://images.unsplash.com/photo-1597449031666-21da12583121?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
       </section>
@@ -79,7 +89,7 @@
       <p>
         Laget av PK
       </p>
-      <p>
+      <p class="gitHub">
         <a href="https://github.com/p3d3r2">Min GitHub</a>
       </p>
     </footer>
